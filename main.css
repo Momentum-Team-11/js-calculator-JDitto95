@@ -1,0 +1,23 @@
+
+
+
+
+button{
+    background-color: rgb(15, 26, 26);
+    width: 100px 100px 100px;
+    length: 100px 100px 100px;
+    margin: 0px;
+    display: grid;
+
+
+}
+h3{
+    display: grid;
+
+    grid-template-columns: 50px;
+    grid-template-rows: 50px;
+    grid-row: auto;
+    grid-column: auto;
+    background-color:gray;
+
+}
