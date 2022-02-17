@@ -1,23 +1,22 @@
-
-
-
-
-button{
-    background-color: rgb(15, 26, 26);
-    width: 100px 100px 100px;
-    length: 100px 100px 100px;
-    margin: 0px;
-    display: grid;
-
-
+*{
+    border: white;
 }
-h3{
-    display: grid;
-
-    grid-template-columns: 50px;
-    grid-template-rows: 50px;
-    grid-row: auto;
-    grid-column: auto;
-    background-color:gray;
-
+.h3{
+    display: flex;
+    font-size: 35;
+    justify-content: center;
+    align-items: center;
+    border: white solid 
+    width: 100%;
+}
+.calculator{
+    display: grid; 
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px ;
+    background-color: green;
+    color: white;
+    width: 400px;
+}
+.answer{
+    grid-column: span 3;
 }
