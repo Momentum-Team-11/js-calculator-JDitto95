@@ -1,0 +1,22 @@
+*{
+    border: white;
+}
+.h3{
+    display: flex;
+    font-size: 35;
+    justify-content: center;
+    align-items: center;
+    border: white solid 
+    width: 100%;
+}
+.calculator{
+    display: grid; 
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px ;
+    background-color: green;
+    color: white;
+    width: 400px;
+}
+.answer{
+    grid-column: span 3;
+}
